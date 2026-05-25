@@ -1,0 +1,59 @@
+/* General Layout Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation Styling */
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav a.active {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+/* Home Page Centering Layout */
+.centered-container {
+    max-width: 600px;
+    margin: 0 auto;       /* Centers the container horizontally */
+    text-align: center;   /* Centers the heading, paragraph text, and image inline */
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;   /* Makes the image a neat circle */
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+/* About Page Styles */
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Removing list decorations */
+.clean-list {
+    list-style-type: none; /* This removes the bullet points! */
+    padding-left: 0;       /* Removes the default indentation */
+}
+
+.clean-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
